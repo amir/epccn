@@ -1,0 +1,14 @@
+[package]
+name = "epccn"
+version = "0.1.0"
+authors = ["Amir Saeid <amir@glgdgt.com>"]
+
+[lib]
+name = "pnt_parser"
+path = "src/pnt.rs"
+
+[dependencies]
+error-chain = "0.11.0"
+openssl = "0.10.8"
+openssl-sys = "0.9.31"
+nom = "4.0.0"
