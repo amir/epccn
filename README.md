@@ -2,7 +2,8 @@
 Goes through list of open network sockets of a Linux machine and if the remote address's port is `443` or `8443` tries to download the peer certificate and extract Common Name from Subject Name.
 
 ## Sample Output
-```λ ~  epccn
+```
+λ ~  epccn
 23.207.185.232:443      Established     Ok("i1.social.s-msft.com")
 157.56.75.164:443       Established     Ok("social.msdn.microsoft.com")
 52.32.209.197:443       Established     Ok("push.services.mozilla.com")
